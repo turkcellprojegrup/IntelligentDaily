@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:context=".AnasayfaActivity"
+    android:background="@color/colorBlue">
+
+    <Button
+        android:id="@+id/button_calendar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_calendar"
+        android:text="Takvim"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_cameraa"
+        android:text="Kamera/Galeri"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_health"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_sagliik"
+        android:text="Sağlık Bilgileri"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_sport"
+        android:layout_width="225dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_spor"
+        android:text="Spor Bilgileri"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_gps"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="274dp"
+        android:layout_marginTop="290dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_gps1"
+        android:text="GPS"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="360dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_sharee"
+        android:text="Sosyal Medya"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/button_note"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="249dp"
+        android:layout_marginTop="430dp"
+        android:background="@color/colorWhite"
+        android:drawableLeft="@drawable/ic_menu_nott"
+        android:text="Günlük"
+        android:textColor="@color/colorBlue" />
+
+
+</RelativeLayout>
+
+
+
+
+

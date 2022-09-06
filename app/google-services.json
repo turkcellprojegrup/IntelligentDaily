@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "945944640511",
+    "firebase_url": "https://intelligentdaily-52a76.firebaseio.com",
+    "project_id": "intelligentdaily-52a76",
+    "storage_bucket": "intelligentdaily-52a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945944640511:android:b2b52a4a9fd2bf602985ca",
+        "android_client_info": {
+          "package_name": "com.example.intelligentdaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945944640511-biidcdshat5edqhj8kcan4g2s2ffjtsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intelligentdaily",
+            "certificate_hash": "d942b255c162e4416760caa3c2a1a126407ef61e"
+          }
+        },
+        {
+          "client_id": "945944640511-88ka4bk6ee9thburtctie3epnotikmim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3wUDk0QLXjhi7RnWCAE1XTJ3cHnHwdys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945944640511-88ka4bk6ee9thburtctie3epnotikmim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

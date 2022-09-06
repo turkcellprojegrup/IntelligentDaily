@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityKayit"
+    android:background="@color/colorBlue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/kayit_email"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_isim_soyisim"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBluee"
+            android:hint="e-Mail Adresi"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#fd7953"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/kayit_google_hesabi"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_email"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBluee"
+            android:hint="Google Hesabı"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#fd7953"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/kayit_adres"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_google_hesabi"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBluee"
+            android:hint="Adres"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#FDA253"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/kayit_yas_dogumtarihi"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_adres"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBluee"
+            android:hint="Yaş/Doğum Tarihi"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/kayit_cinsiyet"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_yas_dogumtarihi"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBluee"
+            android:hint="Cinsiyet"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/go_to_kayit_button"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/kayit_cinsiyet"
+            android:layout_marginTop="26dp"
+            android:background="@color/colorBluee"
+            android:padding="16dp"
+            android:text="Bot Kontrolü"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/go_to_kayit_button"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorDarkBlue"
+            android:padding="30dp"
+            android:text="Giriş Yap"
+            android:textColor="#fff" />
+
+
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/user_notes_et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Not Giriniz"
+        android:inputType="textPersonName"
+        tools:text="Not" />
+
+</RelativeLayout>
